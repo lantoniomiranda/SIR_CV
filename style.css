@@ -3,7 +3,7 @@ img{
     margin-bottom: 8%;
 }
 
-.container{
+body{
     display: flex;
 }
 
@@ -12,10 +12,19 @@ img{
     text-align: center;
 }
 
-ul li a{
-    text-decoration: none;
+.contact-container{
+    color: white;
 }
 
-.email :hover{
+.contact-container .container-block a{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a :hover{
     text-decoration: underline;
 }
