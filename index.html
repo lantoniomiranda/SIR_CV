@@ -4,85 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <title>Curriculum Vitae</title>
 </head>
 <body>
-    <section class="section">
-        <span>
-            <img src="./assets/foto.png" alt="Foto Pessoal">
-        </span>
-        <span>
-            <div>
-                <h1>Luís Miranda</h1>
-                <h2>Estudante</h2>
+    <div class="container">
+        <div class="sidebar d-flex p-5 bg-dark">
+            <div class="profile-container">
+                <img src="./assets/Foto.png" alt="Foto pessoal">
+                <h3 class="name text-white">Luís Miranda</h3>
+                <h5 class="tagLine text-white">Estudante</h5>
             </div>
-        </span>
-    </section>
-    <hr width="30%" align="left">
-    <section class="section">
-        <h3>Pessoal</h3>
-        <div id="email">
-            <span>Email:</span>
-            <span>luis.v.miranda30@gmail.com</span>
-        </div>
-        <div id="phone">
-            <span>Telemóvel:</span>
-            <span>963203467</span>
-        </div>
-        <div id="address">
-            <span>Morada:</span>
-            <span>Avenida da Igreja, 145 Cristelo</span>
-        </div>
-        <div id="zip">
-            <span>Código Postal:</span>
-            <span>4755-176</span>
-        </div>
-        <div id="city">
-            <span>Localidade:</span>
-            <span>Barcelos</span>
-        </div>
-        <div id="birthday">
-            <span>Data de Nascimento:</span>
-            <span>30/05/2000</span>
-        </div>
-        <div id="gender">
-            <span>Género:</span>
-            <span>Homem</span>
-        </div>
-        <div id="nationality">
-            <span>Nacionalidade:</span>
-            <span>Portuguesa</span>
-        </div>
-    </section>
-    <hr width="30%" align="left">
-    <section class="section">
-        <h3>Idiomas</h3>
-        <div>
-            <div>Português</div>
-            <div>Inglês</div>
-        </div>
-    </section>
-    <hr width="30%" align="left">
-    <section class="section">
-        <h3>Experiência Profissional</h3>
-        <div>
-            <h4>Vendedor</h4>
-            <div>Worten Mobile, Viana do Castelo</div>
-            <div>
-                Jul 2021 - Jul 2022
-            <div>
-        </div>
-    </section>
-    <hr width="30%" align="left">
-    <section class="section">
-        <h3>Estudos e Certificações</h3>
-        <div>
-            <h4>Licenciatura em Engenharia Informática</h4>
-            <div>Instituto Politécnico de Viana do Castelo</div>
-            <div>
-                Out 2020 - Atualidade
+            <div class="contact-container container-block">
+                <ul class="list-unstyled">
+                    <li class="email">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-envelope" viewBox="0 0 16 16">
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                          </svg>
+                        <a href="mailto: luis.v.miranda30@gmail.com" class="text-white">luis.v.miranda30@gmail.com</a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </section>
+    </div>
 </body>
 </html>
