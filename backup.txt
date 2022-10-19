@@ -1,0 +1,84 @@
+<section class="section">
+        <span>
+            <img src="./assets/foto.png" class="img-fluid" alt="Foto Pessoal">
+        </span>
+        <span>
+            <div>
+                <h1>Luís Miranda</h1>
+                <h2>Estudante</h2>
+            </div>
+        </span>
+    </section>
+    <section class="profile-container">
+        <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark">
+            <div>
+                <span>
+                    <img src="./assets/foto.png" class="img-fluid" alt="Foto Pessoal">
+                </span>
+            </div>
+            <div><h5>Pessoal</h5></div>
+            <div id="email">
+                <span>Email:</span>
+                <span>luis.v.miranda30@gmail.com</span>
+            </div>
+            <div id="phone">
+                <span>Telemóvel:</span>
+                <span>963203467</span>
+            </div>
+            <div id="address">
+                <span>Morada:</span>
+                <span>Avenida da Igreja, 145 Cristelo</span>
+            </div>
+            <div id="zip">
+                <span>Código Postal:</span>
+                <span>4755-176</span>
+            </div>
+            <div id="city">
+                <span>Localidade:</span>
+                <span>Barcelos</span>
+            </div>
+            <div id="birthday">
+                <span>Data de Nascimento:</span>
+                <span>30/05/2000</span>
+            </div>
+            <div id="gender">
+                <span>Género:</span>
+                <span>Homem</span>
+            </div>
+            <div id="nationality">
+                <span>Nacionalidade:</span>
+                <span>Portuguesa</span>
+            </div>
+            <div>
+                <h5>Idiomas</h5>
+                <div>Português</div>
+                <div>Inglês</div>
+            </div>
+        </div>
+    </section>
+    <!-- <hr width="30%" align="left"> -->
+    <section class="section">
+        
+    </section>
+<!--     <hr width="30%" align="left"> -->
+    <section class="section">
+        <h3>Experiência Profissional</h3>
+        <div>
+            <h4>Vendedor</h4>
+            <div>Worten Mobile, Viana do Castelo</div>
+            <div>
+                Jul 2021 - Jul 2022
+            <div>
+        </div>
+    </section>
+    <!-- <hr width="30%" align="left"> -->
+    <section class="section">
+        <h3>Estudos e Certificações</h3>
+        <div>
+            <h4>Licenciatura em Engenharia Informática</h4>
+            <div>Instituto Politécnico de Viana do Castelo</div>
+            <div>
+                Out 2020 - Atualidade
+            </div>
+        </div>
+    </section>

@@ -1,0 +1,21 @@
+img{
+    border-radius: 50%;
+    margin-bottom: 8%;
+}
+
+.container{
+    display: flex;
+}
+
+.sidebar{
+    flex-direction: column;
+    text-align: center;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+.email :hover{
+    text-decoration: underline;
+}
