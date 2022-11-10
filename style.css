@@ -1,23 +1,15 @@
+.container{
+    margin: 0%;
+    padding: 0%;
+}
+
+.col-lg-4{
+    color: white;
+}
+
 img{
-    border-radius: 50%;
-    margin-bottom: 4%;
-}
-
-body{
-    display: flex;
-}
-
-.sidebar{
-    flex-direction: column;
-    text-align: center;
-}
-
-.contact-container{
-    color: white;
-}
-
-.contact-container .container-block a{
-    color: white;
+    border-radius: 8%;
+    padding-bottom: 0.8rem;
 }
 
 a{
@@ -25,6 +17,26 @@ a{
     color: white;
 }
 
-a :hover{
+.photo{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    color: white;
+    margin: 0.3rem;
+}
+
+ul li a:hover{
+    color: white;
     text-decoration: underline;
+}
+
+h6{
+    text-align: center;
 }
