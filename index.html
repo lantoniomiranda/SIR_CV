@@ -4,29 +4,126 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Luís Miranda</title>
 </head>
-<body>
-    <div class="container">
-        <div class="sidebar d-flex p-5 bg-dark">
-            <div class="profile-container">
-                <img src="./assets/Foto.png" alt="Foto pessoal">
-                <h3 class="name text-white">Luís Miranda</h3>
-                <h5 class="tagLine text-white">Estudante</h5>
+<body class="p-0 w-100 h-100">
+    <div class="container-fluid p-0">
+    <div class="row"> 
+        <div class="col-lg-4 bg-dark left-column">
+            <figure class="text-center pt-5">
+                <img src="assets/Foto.png" class="img-fluid rounded mx-auto d-block pb-4" alt="Profile Picture">
+                <h2 class="text-white">Luís Miranda</h2>
+                <h5 class="text-white">Estudante</h5>
+            </figure>
+            <div class="row text-center pb-5">
+                <div class="col-md-12">
+                    <a href="https://www.linkedin.com/in/lmiranda30/" target="_blank" class="text-decoration-none">
+                        <span class="h5">
+                            <i class="bi bi-linkedin text-white p-1"></i>
+                        </span>
+                    </a>
+                    <a href="https://github.com/lantoniomiranda" target="_blank" class="text-decoration-none">
+                        <span class="h5">
+                            <i class="bi bi-github text-white p-1"></i>
+                        </span>
+                    </a>
+                </div>
             </div>
-            <div class="contact-container container-block">
-                <ul class="list-unstyled">
-                    <li class="email">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-envelope" viewBox="0 0 16 16">
-                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
-                          </svg>
-                        <a href="mailto: luis.v.miranda30@gmail.com" class="text-white">luis.v.miranda30@gmail.com</a>
-                    </li>
-                </ul>
+            <div id="contactos" class="pb-4">
+                <h3 class="text-center"><span class="badge rounded-pill text-bg-light px-5 py-2">Contactos</span></h3>
+                <div class="p-2">
+                    <ul class="list-unstyled text-center text-white">
+                        <li class="p-2"> 
+                            <i class="bi bi-envelope"></i>
+                            <a href="mailto: luis.v.miranda30@gmail.com" class="text-decoration-none">
+                                <span class="text-white">luis.v.miranda30@gmail.com</span> 
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <i class="bi bi-telephone"></i>
+                            <a href="tel: 963203467" class="text-decoration-none">
+                                <span class="text-white">963203467</span> 
+                            </a>
+                        </li>
+                        <li class="pt-2">
+                            <i class="bi bi-geo-alt"></i>
+                            <span>Barcelos, Braga</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="competencias" class="pb-4">
+                <h3 class="text-center"><span class="badge rounded-pill text-bg-light px-4 py-2">Competências</span></h3>
+                <div class="p-2">
+                    <ul class="list-unstyled text-center text-white">
+                        <li class="p-2">
+                            <i class="bi bi-arrow-right"></i>
+                            <span class="text-white">Resolução de Problemas</span>
+                        </li>
+                        <li class="p-2">
+                            <i class="bi bi-arrow-right"></i>
+                            <span class="text-white">Comunicação</span>
+                        </li>
+                        <li class="p-2">
+                            <i class="bi bi-arrow-right"></i>
+                            <span class="text-white">Inglês (B2)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="footer" class="text-center">
+                <div class="text-center pb-2">
+                    <button id="btn" type="button" class="badge rounded-pill border-white btn btn-dark text-white">Light Mode</button>
+                </div>
+                <div class="text-center pb-2">
+                    <button id="btn" type="button" class="badge rounded-pill border-white btn btn-dark text-white">English</button>
+                </div>
             </div>
         </div>
+        <div class="col-lg-8 bg-light text-dark right-column pt-5 px-4">
+             <div class="header-right pb-4">
+                <h4 class="text-uppercase">Carta de apresentação</h4>
+                <hr>
+                <div>
+                    <p>
+                        Estudante de Engenharia Informática, comecei o meu percurso na Universidade Lusófona do Porto, neste mesmo curso, em Outubro de 2019. 
+                        Ao fim desse ano letivo, pedi transferência para o Instituto Politécnico de Viana do Castelo mantendo o mesmo curso, onde me encontro até hoje.
+                        Entre 2015 e 2019, fui aluno da Old Garden School, em Barcelos, tendo neste momento, certificado B2 da língua Inglesa. 
+                    </p>
+                    <p>
+                        No que toca a experiência profissional, trabalhei um ano (2018-2019) num escritório de contabilidade como assistente, onde o meu trabalho passava pela informatização de toda a documentação recebida.
+                        Em julho de 2021, fui o selecionado para uma vaga na Worten Mobile do Estação Viana Shopping, tendo cumprido o cargo de Vendedor até julho de 2022.
+                    </p>
+                    <p>
+                        Em relação a hobbies e interesses, sempre fui atento a novidades na área da informática e da tecnologia em geral, e no tempo livre, gosto de desfrutar de uma boa experiência de single-player de um videojogo.
+                    </p>
+                </div>
+             </div>
+             <div class="header-right">
+                <h4 class="text-uppercase">experiência profissional</h4>
+                <hr>
+                <ul class="list">
+                    <li class="list-item pb-4">
+                        <h5 class="text-uppercase">Assistente</h5>
+                        <h6 class="text-uppercase text-black-50">Varzim Miranda / 2018 - 2019</h6>
+                        <p>
+                            Assistente num escritório de contabilidade, com a principal função de informatizar toda a documentação. 
+                        </p>
+                    </li>
+                    <li class="list-item">
+                        <h5 class="text-uppercase">vendedor</h5>
+                        <h6 class="text-uppercase text-black-50">worten mobile / 2021 - 2022</h6>
+                        <p>
+                            Vendedor de loja, na Worten Mobile do Estação Viana Shopping, de julho de 2021 a julho 2022, como part-tim de fim de semana. 
+                        </p>
+                    </li>
+                </ul>
+             </div> 
+        </div>
+    </div> 
     </div>
 </body>
 </html>
